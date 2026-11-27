@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#f2ede3" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Little City : un city builder dessiné à la main, sur navigateur</title>
+    <meta name="description" content="Un jeu de construction de ville dessiné à la main, gratuit dans ton navigateur. Pose quelques blocs : ils deviennent une ville, qui prend vie sous tes yeux." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1" />
+    <meta name="application-name" content="Little City" />
+    <meta name="author" content="Derek Yao" />
+    <meta name="apple-mobile-web-app-title" content="Little City" />
+    <!-- Link previews (iMessage, Discord, Slack, X). Crawlers need absolute URLs and do not run scripts,
+         so every link shows this one picture, whichever town the link carries. -->
+    <link rel="canonical" href="https://littlecity.io/fr/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Little City" />
+    <meta property="og:title" content="Little City : un city builder dessiné à la main, sur navigateur" />
+    <meta property="og:description" content="Un jeu de construction de ville dessiné à la main, gratuit dans ton navigateur. Pose quelques blocs : ils deviennent une ville, qui prend vie sous tes yeux." />
+    <meta property="og:url" content="https://littlecity.io/fr/" />
+    <meta property="og:image" content="https://littlecity.io/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Une ville insulaire dessinée à la main, avec un château, un port, une chapelle et un phare." />
+    <!-- The preview is the promo video: apps that play link videos (Discord, Slack, iMessage, Telegram) show it; X shows the still. -->
+    <meta property="og:video" content="https://littlecity.io/preview.mp4" />
+    <meta property="og:video:secure_url" content="https://littlecity.io/preview.mp4" />
+    <meta property="og:video:type" content="video/mp4" />
+    <meta property="og:video:width" content="1280" />
+    <meta property="og:video:height" content="720" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Little City : un city builder dessiné à la main, sur navigateur" />
+    <meta name="twitter:description" content="Un jeu de construction de ville dessiné à la main, gratuit dans ton navigateur. Pose quelques blocs : ils deviennent une ville, qui prend vie sous tes yeux." />
+    <meta name="twitter:image" content="https://littlecity.io/og.jpg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":["VideoGame","WebApplication"],"@id":"https://littlecity.io/#game","name":"Little City","url":"https://littlecity.io/","description":"Un jeu de construction de ville dessiné à la main, gratuit dans ton navigateur. Pose quelques blocs : ils deviennent une ville, qui prend vie sous tes yeux.","image":"https://littlecity.io/og.jpg","genre":["City builder","Town builder","Diorama","Sandbox","Relaxing"],"keywords":"diorama builder, town builder, city builder, hand-drawn, cozy game, relaxing game, sandbox, browser game, free online game","gamePlatform":["Web browser","PC","Mac","iPhone","iPad","Android"],"applicationCategory":"GameApplication","operatingSystem":"Any (runs in a web browser)","playMode":"SinglePlayer","isAccessibleForFree":true,"inLanguage":["en","zh-Hans","es","fr","pt-BR","ja","ko","de","tr"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock"},"author":{"@type":"Person","@id":"https://littlecity.io/#creator","name":"Derek Yao"},"creator":{"@type":"Person","@id":"https://littlecity.io/#creator","name":"Derek Yao"},"publisher":{"@type":"Person","@id":"https://littlecity.io/#creator","name":"Derek Yao"},"trailer":{"@type":"VideoObject","@id":"https://littlecity.io/about/#trailer","name":"Bande-annonce de Little City : un jeu de construction de ville dessiné à la main","description":"Un drone arrive de la mer et survole une ville insulaire dessinée à la main dans Little City : sous les cordes à linge, à travers la place où se tient un mariage, puis au-dessus du quai. Little City est un jeu de construction de ville dessiné à la main, par Derek Yao.","thumbnailUrl":["https://littlecity.io/og.jpg"],"contentUrl":"https://littlecity.io/preview.mp4","embedUrl":"https://littlecity.io/about/","uploadDate":"2026-11-21T00:00:00-08:00","duration":"PT58S","width":1280,"height":720,"author":{"@type":"Person","@id":"https://littlecity.io/#creator","name":"Derek Yao"},"publisher":{"@type":"Person","@id":"https://littlecity.io/#creator","name":"Derek Yao"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://littlecity.io/#site","name":"Little City","alternateName":["littlecity.io","Little City game","Little City city builder"],"url":"https://littlecity.io/","creator":{"@type":"Person","@id":"https://littlecity.io/#creator","name":"Derek Yao"}}</script>
+    <link rel="alternate" hreflang="en" href="https://littlecity.io/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://littlecity.io/zh/">
+    <link rel="alternate" hreflang="es" href="https://littlecity.io/es/">
+    <link rel="alternate" hreflang="fr" href="https://littlecity.io/fr/">
+    <link rel="alternate" hreflang="pt-BR" href="https://littlecity.io/pt/">
+    <link rel="alternate" hreflang="ja" href="https://littlecity.io/ja/">
+    <link rel="alternate" hreflang="ko" href="https://littlecity.io/ko/">
+    <link rel="alternate" hreflang="de" href="https://littlecity.io/de/">
+    <link rel="alternate" hreflang="tr" href="https://littlecity.io/tr/">
+    <link rel="alternate" hreflang="x-default" href="https://littlecity.io/">
+    <meta property="og:locale" content="fr_FR" />
+    <style>html,body{overscroll-behavior:none;color:#3a2f2a;background:#f2ede3;height:100%;margin:0;overflow:hidden}body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;position:fixed;inset:0}.lc-about{clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}#town{touch-action:none;outline:none;width:100%;height:100%;display:block;position:absolute;inset:0}.lc-loading{pointer-events:none;opacity:1;flex-direction:column;justify-content:center;align-items:center;gap:14px;transition:opacity .4s;display:flex;position:fixed;inset:0}.lc-loading[data-state=done]{opacity:0}.lc-loading svg{fill:none;stroke:#3a2f2a;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;width:min(200px,60vw);height:auto;overflow:visible}.lc-loading path{stroke-dasharray:1 2;stroke-dashoffset:0;animation:.45s ease-out backwards lc-draw;animation-delay:calc(var(--i) * .2s)}.lc-loading-line{letter-spacing:.02em;opacity:.75;text-align:center;margin:0;padding:0 16px;font:600 14px/1.2 ui-rounded,SF Pro Rounded,Hiragino Maru Gothic ProN,Nunito,Varela Round,system-ui,-apple-system,Segoe UI,sans-serif}:lang(zh) .lc-loading-line{font-family:ui-rounded,SF Pro Rounded,PingFang SC,Hiragino Sans GB,Microsoft YaHei,system-ui,sans-serif}@keyframes lc-draw{0%{stroke-dashoffset:1px}to{stroke-dashoffset:0}}.lc-loading[data-state=failed] path{animation:none}@media (prefers-reduced-motion:reduce){.lc-loading path{animation:none}.lc-loading{transition:none}}</style>
+    <script type="module" crossorigin src="/assets/app-Raz3ouNh.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-P2Xu9kJm.js">
+    <link rel="modulepreload" crossorigin href="/assets/save-BhwFf90t.js">
+    <link rel="modulepreload" crossorigin href="/assets/field-basketball.scenario-DFW_ieIG.js">
+    <link rel="modulepreload" crossorigin href="/assets/pointer-Blbu6EK8.js">
+    <link rel="modulepreload" crossorigin href="/assets/towns-DIg0E-22.js">
+    <link rel="stylesheet" crossorigin href="/assets/pointer-CDxmrgFt.css">
+    <link rel="stylesheet" crossorigin href="/assets/app-D5wnnS8v.css">
+  </head>
+  <body>
+    <canvas id="town" aria-label="Little City : ta ville, dessinée à l’encre et au crayon"></canvas>
+    <!-- What the page is, for search engines and screen readers: the game itself is the canvas above.
+         Kept true to the game (tools/seo/site.ts has the long version, published at /about/). -->
+    <main class="lc-about">
+      <h1>Little City : un city builder dessiné à la main, dans ton navigateur</h1>
+      <p>Un jeu de construction de ville dessiné à la main, gratuit dans ton navigateur. Pose quelques blocs : ils deviennent une ville, qui prend vie sous tes yeux.</p>
+      <p>Une maison à côté d’une haute tour devient une chapelle. Quatre blocs empilés au bord de la mer deviennent un phare. Puis les habitants s’installent : le meunier porte la farine à la boulangerie, les bateaux partent pêcher, et certains jours il y a un marché ou un mariage sur la place. Les saisons passent et les réverbères s’allument au crépuscule.</p>
+      <p>Ou fais pousser toute une ville sur une nouvelle île, une ville portuaire, une ville au château ou un village agricole, et contente-toi de la regarder.</p>
+      <p>Fonctionne sur ordinateur, iPhone, iPad et Android. Créé par Derek Yao.</p>
+      <nav><a href="/fr/about/" tabindex="-1">À propos de Little City</a> · <a href="/fr/guide/" tabindex="-1">L’almanach : chaque bâtiment spécial et comment l’obtenir</a></nav>
+    </main>
+    <div class="lc-loading" role="status" data-state="loading">
+      <svg viewBox="0 0 200 120" aria-hidden="true">
+        <path pathLength="1" style="--i:0" d="M6 98 C26 94 38 101 58 97 S92 92 112 98 S158 102 176 96 S190 97 195 99" />
+        <path pathLength="1" style="--i:1" d="M20 94 L21 62 L53 61 L52 93" />
+        <path pathLength="1" style="--i:2" d="M14 65 L37 38 L60 64" />
+        <path pathLength="1" style="--i:3" d="M32 94 L33 79 L42 78 L42 93" />
+        <path pathLength="1" style="--i:4" d="M122 95 L130 36 L152 37 L159 93" />
+        <path pathLength="1" style="--i:5" d="M127 50 L156 51 M125 72 L155 73" />
+        <path pathLength="1" style="--i:6" d="M127 36 L130 24 L152 24 L152 36 M131 24 L141 12 L151 24" />
+        <path pathLength="1" style="--i:7" d="M168 22 L180 15 M172 30 L186 29 M170 38 L181 44" />
+        <path pathLength="1" style="--i:8" d="M70 108 C80 105 88 110 99 107 M104 112 C112 109 118 113 128 110" />
+      </svg>
+      <p class="lc-loading-line">Drawing your town…</p>
+    </div>
+    <script>
+      // The loading line in the player's language, before the game's code arrives. Picks the language the
+      // way src/i18n pickLang() does (?lang=, the menu's choice, the browser's languages); keep the two in step.
+      var lcWords = (function () {
+        var words = {
+          zh: ['正在画你的小镇…', '这个浏览器画不出小镇。请刷新页面，或者换个浏览器试试。', 'zh-Hans'],
+          es: ['Dibujando tu pueblo…', 'Este navegador no pudo dibujar el pueblo. Prueba a recargar, o usa otro navegador.', 'es'],
+          fr: ['On dessine ta ville…', 'Ce navigateur n’a pas pu dessiner la ville. Recharge la page, ou essaie un autre navigateur.', 'fr'],
+          pt: ['Desenhando sua cidade…', 'Este navegador não conseguiu desenhar a cidade. Tente recarregar ou use outro navegador.', 'pt'],
+          ja: ['町をかいています…', 'このブラウザでは町をかけませんでした。再読み込みするか、別のブラウザで試してください。', 'ja'],
+          ko: ['마을을 그리는 중…', '이 브라우저에서는 마을을 그릴 수 없어요. 새로고침하거나 다른 브라우저로 열어 보세요.', 'ko'],
+          de: ['Deine Stadt wird gezeichnet…', 'Dieser Browser konnte die Stadt nicht zeichnen. Lade die Seite neu oder versuch einen anderen Browser.', 'de'],
+          tr: ['Kasaban çiziliyor…', 'Bu tarayıcı kasabayı çizemedi. Sayfayı yenile ya da başka bir tarayıcı dene.', 'tr'],
+        };
+        var tags = [];
+        try { tags.push(new URLSearchParams(location.search).get('lang') || '', localStorage.getItem('little-city.lang') || ''); } catch (e) {}
+        tags = tags.concat(navigator.languages || [navigator.language || ''], location.pathname.split('/')[1] || '');
+        for (var i = 0; i < tags.length; i++) {
+          var base = String(tags[i]).toLowerCase().split(/[-_]/)[0];
+          if (base === 'en') return null;
+          if (words[base]) return words[base];
+        }
+        return null;
+      })();
+      if (lcWords) {
+        document.querySelector('.lc-loading-line').textContent = lcWords[0];
+        document.documentElement.lang = lcWords[2];
+      }
+    </script>
+    <script>
+      // A start that fails says so. Only while the loader is still waiting; a later error leaves the town alone.
+      function lcFailed(e) {
+        // A script that never arrived fires on its element; a runtime error fires on window and must be ours.
+        var t = e.target;
+        if (t !== window && !(t && t.tagName === 'SCRIPT')) return;
+        if (t === window && (!e.filename || e.filename.indexOf(location.origin + '/') !== 0)) return;
+        var l = document.querySelector('.lc-loading');
+        if (!l || l.getAttribute('data-state') !== 'loading') return;
+        l.setAttribute('data-state', 'failed');
+        l.querySelector('.lc-loading-line').textContent = window.lcWords ? lcWords[1] : "This browser couldn't draw the town. Try reloading, or another browser.";
+      }
+      window.addEventListener('error', lcFailed, true);
+    </script>
+  </body>
+</html>
